@@ -20,7 +20,7 @@ func TestLocalizeDefaultMessage(t *testing.T) {
 
 		assert.Equal(t, m.Other, b.LocalizeDefaultMessage(l, m))
 	})
-	t.Run("empty message", func(t *testing.T) {
+	t.Run("empty message, output warning log and return empty string", func(t *testing.T) {
 		b := testutils.GetBundle()
 		l := b.GetServerLocalizer()
 		m := &i18n.Message{}
