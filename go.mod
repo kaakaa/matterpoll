@@ -1,13 +1,13 @@
 module github.com/matterpoll/matterpoll
 
-go 1.22
+go 1.21
 
-toolchain go1.22.7
+toolchain go1.21.8
 
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/gorilla/mux v1.8.1
-	github.com/mattermost/mattermost/server/public v0.1.7
+	github.com/mattermost/mattermost/server/public v0.1.6
 	github.com/nicksnyder/go-i18n/v2 v2.4.0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.9.0
